@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Geneva;
+}
+
+.img1 {
+    background-image: url("./assets/images/01-bg.jpg");
+    width: 100%;
+    height: 700px;
+}
+
+.childimg1 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(238, 76, 31, 0.993);
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.favorite {
+    font-size: 50px;
+}
+
+.lorem {
+    font-size: 20px;
+    padding: 30px 0;
+}
+
+.bgcolor {
+    background-color: rgba(243, 133, 83, 0.267);
+}
+
+.childimg1 button,
+.mainchild button,
+.free button,
+.fromchild button {
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: none;
+}
+
+.main {
+    background-color: rgb(244, 98, 58);
+    padding: 30px 0;
+}
+
+.mainchild {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+    font-size: 15px;
+}
+
+.icon {
+    color: rgb(244, 98, 58);
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.maincard {
+    justify-content: space-between;
+    display: flex;
+}
+
+.cardchild {
+    text-align: center;
+}
+
+.parentcard {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.parentcard h1 {
+    padding-bottom: 40px;
+}
+
+.cardimage {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.imagechild img {
+    width: 325px;
+    height: 250px;
+    transition: 2.4s;
+}
+
+.free {
+    background-color: rgb(244, 98, 58);
+    padding: 10% 0;
+    text-align: center;
+    color: white;
+}
+
+.mainfrom {
+   
+    padding: 60px 0;
+    font-size: 20px;
+    margin: 0 auto;
+    background-color: rgba(246, 97, 23, 0.799); /* Adding background color with transparency */
+    color: white; /* Setting text color to white */
+}
+.mainfromchild{
+    width:60%;
+    text-align: center;
+    margin: 0 auto;
+}
+input {
+    padding: 8px 0;
+    width: 100%; /* Adjusted to 100% for responsiveness */
+}
+
+.fromchild {
+    text-align: center;
+}
+
+.fromchild button {
+    width: 100%; /* Adjusted to 100% for responsiveness */
+    background-color: rgb(244, 98, 58);
+    color: white;
+}
+
+.local {
+    text-align: center;
+    margin: 30px 0 60px;
+}
+
+button:hover {
+    color: white;
+    background-color: rgba(196, 201, 230, 0.911);
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+}
+
+.scroll {
+    position: fixed;
+    left: 0;
+    z-index: 99999;
+    top: 0;
+    height: 10px;
+}
+
+.iconi {
+    font-size: 50px;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.navbar-collapse {
+    transition: height 0.3s ease;
+}
+
+.nav-item {
+    overflow: hidden;
+}
+
+.nav-item.open {
+    height: auto;
+}
+
+.imagechild {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.9s ease;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(244, 98, 58, 0.829);
+}
+
+.imagechild:hover .overlay {
+    opacity: 2;
+}
